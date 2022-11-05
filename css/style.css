@@ -50,6 +50,10 @@ li {
   display: none;
 }
 
+.notel {
+  pointer-events: none;
+}
+
 @media screen and (max-width: 767px) {
   body {
     font-size: 0.9rem;
@@ -528,6 +532,7 @@ service
 
 .service-img img {
   width: 100%;
+  height: 280px;
 }
 
 .service-body {
@@ -575,6 +580,10 @@ service
 
   .service-img {
     width: 100%;
+  }
+
+  .service-img img {
+    height: auto;
   }
 
   .service-body {
@@ -643,7 +652,7 @@ voice
 }
 
 .voice-body {
-  width: 60%;
+  width: 42%;
   color: #000;
   background-color: #fff;
   margin: 0 auto;
@@ -718,7 +727,7 @@ voice
   }
 
   .voice-name {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 
   .slick-slide img {
@@ -1117,11 +1126,11 @@ Contact
   letter-spacing: 2px;
 }
 
-.contact-item h3 span{
+.contact-item h3 span {
   font-size: 1.6rem;
 }
 
-.contact-item a {
+.contact-item .contact-btn{
   color: #fff;
   background-color: #C9E2F5;
   font-size: 1.5rem;
@@ -1129,7 +1138,7 @@ Contact
   padding: 8px 50px;
 }
 
-.contact-item a:hover{
+.contact-item .contact-btn:hover {
   color: #C9E2F5;
   background-color: #fff;
   border: 1px solid #C9E2F5;
@@ -1177,11 +1186,11 @@ Contact
   }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .contact-title h2 {
     font-size: 2rem;
   }
-  
+
 }
 
 /*--------------------------------
