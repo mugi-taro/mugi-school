@@ -1121,14 +1121,14 @@ Contact
 
 .contact-item h3 a{
   color: #3498db;
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin: 0 1.2rem;
   letter-spacing: 2px;
 }
 
 .contact-item h3 span {
   color: #3498db;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .contact-item .contact-btn{
@@ -1168,8 +1168,8 @@ Contact
 }
 
 @media screen and (max-width: 730px) {
-  .contact-item h3 {
-    font-size: 2rem;
+  .contact-item h3 a{
+    font-size: 1.8rem;
   }
 
   .contact-item a {
@@ -1182,8 +1182,8 @@ Contact
 }
 
 @media screen and (max-width: 400px) {
-  .contact-item h3 {
-    font-size: 1.7rem;
+  .contact-item h3 a{
+    font-size: 1.6rem;
   }
 }
 
