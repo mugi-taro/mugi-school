@@ -1119,7 +1119,7 @@ Contact
   margin-top: 30px;
 }
 
-.contact-item h3 {
+.contact-item h3 a{
   color: #3498db;
   font-size: 2.4rem;
   margin: 0 1.2rem;
@@ -1127,6 +1127,7 @@ Contact
 }
 
 .contact-item h3 span {
+  color: #3498db;
   font-size: 1.6rem;
 }
 
